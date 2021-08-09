@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    text-align: center;
+    height:100vh;
+    background: linear-gradient(to bottom,#F7E6AD,#F5FDB0,#BCFFB9,#28FFBF) no-repeat;
+}
+
+.container{
+    display: flex;
+}
+
+.div{
+    display: flex;
+    text-align: center;
+    background-color: aquamarine;
+    height:100px;
+    width: 100px;
+    margin-left:50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight:bold;
+}
