@@ -14,7 +14,23 @@
 
 <body>
     <h1>Days Week</h1>
-    <div class="form">!</div>
+    <div class="form">
+        <label for="list-week">List day Week</label>
+        <input type="text" list="list-week" id="list-week-input" name="list-week" placeholder="Select a day of the week">
+        <datalist id="list-week">
+            <option value="Monday">
+            <option value="Tuesday">
+            <option value="Wednesday">
+            <option value="Thursday">
+            <option value="Friday">
+            <option value="Saturday">
+            <option value="Sunday">
+        </datalist> 
+        Jump to 
+        <input type="number" name="day" id="day"/>
+        Days
+        <button onclick="goFunction()">Go</button>
+    </div>
     <div class="container">
         <div class="div">Monday</div>
         <div class="div">Tuesday</div>

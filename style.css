@@ -6,6 +6,33 @@ body{
     background: linear-gradient(to bottom,#F7E6AD,#F5FDB0,#BCFFB9,#28FFBF) no-repeat;
 }
 
+
+h1 {
+    text-align:  center;
+    font-weight: bold;
+   font-size: 4rem;
+}
+
+.form {
+    font-weight: bold;
+    font-size: 1.4rem;
+   padding:20px;
+   margin:50px ;
+   border:3px solid aquamarine
+}
+.form input ,button {
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    background: white;
+    outline: none;
+}
+
+.form  button:hover {
+    background-color: aquamarine;
+}
+
+
 .container{
     display: flex;
 }
@@ -22,4 +49,7 @@ body{
     padding: 20px;
     font-size: 20px;
     font-weight:bold;
+}
+.selected {
+    background-color: #fdd5b0
 }
