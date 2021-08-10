@@ -1,18 +1,20 @@
 const goFunction = () => {
-    let dayweek = 0;
-    let total = 0
     const divWeek = document.querySelectorAll('.div')
     const weekday = document.getElementById('list-week-input');
     const day = document.getElementById('day');
-    let arrweekday = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
+
+    let dayweek = 0;
+    let total = 0;
+
+
+    
     if(day.value ===""||weekday.value === ""){
         alert('day')
     } else{
-        arrweekday.forEach((day,index) => {
-            if(weekday.value === day) {
+        divWeek.forEach((day,index) => {
+            if(weekday.value === day.textContent) {
                 dayweek = index;
-                console.log(typeof index)
             }
         })
         total = dayweek + Number(day.value)
